@@ -113,5 +113,60 @@ public class Main {
         }
 
 
+        //Atividade 1: Pré-incremento e Pós-incremento
+        System.out.println();
+        System.out.println("----------------------------------------------------------------");
+
+        int a = 5;
+        int b = a--;
+        int c = --a;
+
+        System.out.println("Valor de a: " + a);
+        System.out.println("Valor de b: " + b);
+        System.out.println("Valor de c: " + c);
+
+
+
+//        //Atividade 3: Operadores Abreviados
+//        System.out.println();
+//        System.out.println("----------------------------------------------------------------");
+//
+//        int valor = 20;
+//        valor = valor + 5;
+//        valor = valor * 2;
+//        valor = valor - 3;
+//        valor = valor / 2;
+//        valor = valor % 4;
+//        System.out.println("Resultado final: " + valor);
+
+        System.out.println();
+        System.out.println("----------------------------------------------------------------");
+
+        int senai = 10;
+        int senai1 = 210;
+        System.out.println("o valor da \"somas\" é: " + (senai + senai1));
+
+
+        char alert = '6';
+
+        System.out.println("O gato fez \"Miau!\" para mim.");
+
+
+        System.out.println("Esta é a primeira linha."
+                + "Esta ainda é a primeira linha."
+                + "É apenas uma linha muito longa "
+                + "e eu não posso ver isso tudo no NetBeans."
+                + "\n" + "Esta é a segunda linha."
+                + "\n" + "Esta é a terceira linha.");
+
+
+        int myInt;
+        long myLong = 123987654321L;
+        myInt = (int)myLong; //O número é "cortado"
+//myInt é -566397263
+
+
+
+
     }
 }
