@@ -100,5 +100,18 @@ public class Main {
         double peso = 72.7;;
 
         System.out.println("Olá, meu nome é " + nome + ", minha idade é "+idade+ " e o meu peso é "+peso);
+
+        //Verificando Par ou Ímpar
+        System.out.println();
+        System.out.println("----------------------------------------------------------------");
+
+        int num = 8;
+        if (num % 2 ==0) {
+            System.out.println("O número " + num + " é par.");
+        }else {
+            System.out.println("O número " + num + " é ímpar.");
+        }
+
+
     }
 }
